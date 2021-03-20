@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home_main_container{
+    overflow-x: hidden;
+    background-color: #EFEFF1; 
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar_home_main_container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.retirement_home_detail_main_container,
+.retirement_home-main_container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.retirement_home_container{
+    margin-right: 0;
+    height: 100%;
+}
+
+.home_profile{
+    margin-left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.retirement_home_detail_container{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-left: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .home_main_container{
+        display: none;
+    }
+}

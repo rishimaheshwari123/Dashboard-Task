@@ -1,0 +1,182 @@
+.profile_card {
+    border: 0;
+    height: 100%;
+    background-color: #FAFAFA;
+    width: 100%;
+    padding: 15px;
+}
+
+.profile_header>span{
+    margin-top: 10px;
+}
+
+.profile_header> img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile_header>span h2{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.profile_header>span p{
+    color: #888888;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile_main_content{
+    margin-top: 10px;
+}
+
+.profile_main_content .profile_main_top h3{
+    color: #565656;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.profile_main_content .profile_main_top .amount_balance{
+    margin-top: 20px;
+}
+
+.profile_main_content .profile_main_top .amount_balance h2{
+    color: #272727;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.profile_main_content .profile_main_top .amount_balance span,
+.profile_main_content .profile_main_top .contributions span,
+.profile_main_content .profile_main_top .interest span{
+    color: #BBBBBB;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -12px;
+    display: block;
+}
+
+.profile_main_content .profile_main_top .contributions,
+.profile_main_content .profile_main_top .interest{
+    margin-top: 12px;
+}
+
+.profile_main_content .profile_main_top .contributions h3,
+.profile_main_content .profile_main_top .interest h3{
+    font-size: 18px;
+    color: #272727;
+    font-weight: 700;
+}
+
+.btn-primary{
+    margin-top: 18px;
+    width: 60%;
+    font-weight: 700;
+    background-color: #4935FF;
+    border-radius: 8px;
+}
+
+.profile_main_bottom{
+    margin-top: 15px;
+}
+
+.profile_main_bottom>h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #4C4C4C;
+}
+
+.transaction_data{
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4C4C4C;
+    margin-bottom: -10px;
+}
+
+.transaction_data>span{
+    color: #B9B9B9;
+    font-size: 16px;
+}
+
+.transaction_data>hr{
+    margin-top: -8px;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .profile_header>span h2{
+        font-size: 22px;
+    }
+
+    .profile_main_content .profile_main_top .amount_balance h2{
+        font-size: 20px;
+    }
+
+    .profile_main_content .profile_main_top h3{
+        font-size: 18px;
+    }
+
+    .profile_header>span p,
+    .profile_main_bottom>h3,
+    .profile_main_content .profile_main_top .contributions h3,
+    .profile_main_content .profile_main_top .interest h3{
+        font-size: 16px;
+    }
+
+    .profile_main_content .profile_main_top .amount_balance span,
+    .profile_main_content .profile_main_top .contributions span,
+    .profile_main_content .profile_main_top .interest span,
+    .transaction_data>span{
+        font-size: 14px;
+    }
+
+    .transaction_data,
+    .transaction_data{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .profile_header> img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .profile_header>span h2{
+        font-size: 19px;
+    }
+
+    .profile_main_content .profile_main_top .amount_balance h2{
+        font-size: 18px;
+    }
+
+    .profile_main_content .profile_main_top h3{
+        font-size: 16px;
+    }
+
+    .profile_header>span p,
+    .profile_main_bottom>h3,
+    .profile_main_content .profile_main_top .contributions h3,
+    .profile_main_content .profile_main_top .interest h3{
+        font-size: 14px;
+    }
+
+    .profile_main_content .profile_main_top .amount_balance span,
+    .profile_main_content .profile_main_top .contributions span,
+    .profile_main_content .profile_main_top .interest span,
+    .transaction_data>span{
+        font-size: 12px;
+    }
+
+    .transaction_data,
+    .transaction_data{
+        font-size: 9px;
+    }
+
+    .btn-primary{
+        width: 70%;
+    }
+}

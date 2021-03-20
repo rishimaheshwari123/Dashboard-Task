@@ -1,0 +1,163 @@
+.details_container{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.details_header{
+    padding-top: 0;
+}
+
+.details_header>p{
+    color: #5D4CFE;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.details_header>h4{
+    color: #444444;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.details_header_data_container{
+    margin-top: 12px;
+}
+
+.details_header_data{
+    border-bottom: 2px solid #9185FE;
+}
+
+.details_header_data>h4{
+    color: #444444;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.my_peers_section>h4{
+    color: #595959;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.my_peers_section>p{
+    color: #C4C4C4;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.details_header_data>span{
+    color: #A9A9A9;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.circular_progress_section{
+    margin-top: 30px;
+}
+
+.CircularProgressbar {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.circular_title {
+    text-align: center;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #22D6AA;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.form-control {
+    border: 0;
+    margin-top: -2px;
+    font-size: 12px;
+    color: #6D6D6D;
+    font-weight: 800;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 11px;
+    font-weight: 700;
+    color: #7A7A7A;
+}
+
+.rd_hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 80%;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .details_header>h4,
+    .details_header_data>h4{
+        font-size: 22px;
+    }
+
+    .details_header>p,
+    .my_peers_section>h4{
+        font-size: 16px;
+    }
+
+    .my_peers_section>p{
+        font-size: 14px;
+    }
+
+    .circular_title {
+        font-size: 12px;
+    }
+
+    .details_header_data>span{
+        font-size: 11px;
+    }
+
+    .form-control,
+    label  {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .details_header>h4,
+    .details_header_data>h4{
+        font-size: 20px;
+    }
+
+    .details_header>p,
+    .my_peers_section>h4{
+        font-size: 14px;
+    }
+
+    .my_peers_section>p{
+        font-size: 12px;
+    }
+
+    .circular_title {
+        font-size: 10px;
+    }
+
+    .details_header_data>span{
+        font-size: 8px;
+    }
+
+    .form-control,
+    label  {
+        font-size: 10px;
+    }
+}

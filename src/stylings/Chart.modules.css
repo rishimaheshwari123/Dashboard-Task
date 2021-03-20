@@ -1,0 +1,69 @@
+.chart_main_container>h3{
+    color: #686868;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -12px;
+}
+
+.chart_data_details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart_data_details>span{
+    width: 15px;
+    height: 10px;
+    display: block;
+    border-radius: 25px;
+    background-color: #0800A3;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+
+.chart_data_details .em_sp{
+    background-color: #4935FF;
+}
+
+.chart_data_details .ti_sp{
+    background-color: #85AFFF;
+}
+
+.chart_data_details>p{
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.chart_data_details>p>span{
+    color: #5D5D5D;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .chart_main_container>h3{
+        font-size: 20px;
+    }
+
+    .chart_data_details>p{
+        font-size: 12px;
+    }
+
+    .chart_data_details>p>span{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .chart_main_container>h3{
+        font-size: 18px;
+    }
+
+    .chart_data_details>p{
+        font-size: 10px;
+    }
+
+    .chart_data_details>p>span{
+        font-size: 10px;
+    }
+}
