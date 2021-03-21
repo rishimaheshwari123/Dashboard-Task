@@ -1,0 +1,66 @@
+.mobile_profile_card{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    overflow-y: hidden;
+}
+.mobile_profile_header>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.balance_details{
+    width: 85%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 0;
+    background-color: #f1f0f0;
+    border-radius: 25px;
+}
+
+.amount_balance>h3,.mobile_transaction_data>h3{
+    color: #3F3F3F;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.amount_balance>h2{
+    color: #262626;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.amount_balance>span,
+.contributions>span,
+.interest>span,
+.mobile_transaction_data>span{
+    color: #969696;
+    font-size: 16px;
+}
+
+.contributions>span,
+.interest>span{
+    font-size: 14px;
+    margin-top: -10px;
+    display: block;
+}
+
+.contributions>h3,
+.interest>h3{
+    font-size: 19px;
+    color: #262626;
+    font-weight: 700;
+}
+
+.mobile_home .mobile_home_btn{
+    width: 90%;
+}
+
+.mobile_transaction_data>p{
+    font-size: 15px;
+    color: #262626;
+    font-weight: 700;
+}

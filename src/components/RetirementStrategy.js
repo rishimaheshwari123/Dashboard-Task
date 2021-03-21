@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Form, Nav } from 'react-bootstrap';
+import { Button, Card, Nav } from 'react-bootstrap';
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 import RangeSlider from 'react-bootstrap-range-slider';
 import { useState } from 'react';
@@ -72,14 +72,6 @@ const RetirementStrategy = () => {
                 </div>
             </div>
             </Card>
-            {/* <div className="question_main_section">
-                <div className="question_section">
-                    <p className="q1">Are you considering a</p>
-                    <p className="q2">Housing Advance?</p>
-                    <p className='q3'>Limited time reduced interest</p>
-                    <Nav.Link className="learn_more" to="/">Learn More <FaIcons.FaChevronRight /> </Nav.Link>
-                </div>
-            </div> */}
         </>
     );
 };

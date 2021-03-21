@@ -43,8 +43,26 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 600px){
+.mobile_home_main_container{
+    display: none;
+}
+
+.mobile_profile_home_container,
+.mobile_navbar_home_container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 634px){
     .home_main_container{
         display: none;
+    }
+
+    .mobile_home_main_container{
+        display: block;
+        height: 100vh;
+        overflow: hidden;
+        overflow: scroll
     }
 }

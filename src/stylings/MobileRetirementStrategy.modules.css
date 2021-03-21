@@ -1,0 +1,21 @@
+.mobile_my_peers>h4,
+.em_contribution>h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #727272;
+}
+
+.mobile_my_peers>p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #BABABA;
+    margin-top: -8px;
+}
+
+.mobile_strategy{
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 40px 40px 0px 0px;
+}

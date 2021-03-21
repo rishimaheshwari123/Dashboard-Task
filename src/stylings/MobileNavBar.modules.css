@@ -1,0 +1,28 @@
+.main_menu{
+    font-size: 30px;
+    color: #A4A4A4;
+    cursor: pointer;
+    margin: 20px auto;
+    margin-bottom: 34px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.menu_active{
+    font-size: 30px;
+    background-color: #3E2EDF;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.nav_container{
+    width: 95%;
+    margin: -10px auto;
+}
+
+.nav_item{
+    width: 19%;
+}
